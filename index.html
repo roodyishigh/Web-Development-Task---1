@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ricochet Rumble</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="board"></div>
+    <div id="controls">
+        <button id="pause">Pause</button>
+        <button id="resume">Resume</button>
+        <button id="reset">Reset</button>
+        <button id="undo">Undo</button>
+        <button id="redo">Redo</button>
+        <p>Time left: <span id="time-left"></span></p>
+    </div>
+    
+    <audio id="shoot-sound" src="sounds/shoot.wav"></audio>
+    <audio id="hit-sound" src="sounds/hit.wav"></audio>
+    <audio id="swap-sound" src="sounds/swap.wav"></audio>
+    <audio id="pass-through-sound" src="sounds/pass-through.wav"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
